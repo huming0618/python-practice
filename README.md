@@ -3,5 +3,4 @@
 
 ##fork.py
 - pid=os.fork() #child-process pid is 0
-- two ways to express the if...else..the using the and-or trick
-n
+- two ways to express the if...else..the using the and-or trick [refer] http://wangye.org/blog/archives/690/n

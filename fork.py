@@ -16,7 +16,8 @@ try:
 		sleep(10)
 
 	#print "the count", count, ' from ', "child" if pid == 0 else "parent"
-	print "the count", count, ' from ', "child" , pid==0 and "child" or "parent"
+	#print "the count", count, ' from ', "child" , pid==0 and "child" or "parent"
+	print "the count", count, ' from ', "child" , (pid==0 and ["child"] or ["parent"])[0]
 except OSError, e:
 	pass
 
