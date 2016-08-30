@@ -1,5 +1,5 @@
 ##zer_day.py
-计算儿子的生辰天数
+计算儿子的生辰天数, 注意最后文字编码的转换
 
 ##fork.py
 - pid=os.fork() #child-process pid is 0
